@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. Clone the repo
 2. go to revfin folder there will be client and server folder. Node js version is 16.20.0
 3. Make sure mongodb is installed and .env files are pasted in appropriated root folder of client and server
@@ -81,3 +82,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# revfin-listreorder
+>>>>>>> f2e57a2b57ae3daa63448dc92d099f44e3c43f75

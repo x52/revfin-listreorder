@@ -15,7 +15,7 @@ const createUserValidation = [
 
 
 router.post('/register',
-//createUserValidation, 
+createUserValidation, 
 //validateRequest, 
 registerUser);
 

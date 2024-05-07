@@ -23,11 +23,12 @@ app.use('/user', userRoute);
 
 app.get('/', (req, res,next) => {
     try {
+        res.json({ data: 'hi' });
   
    let result = null
       // If the data is not found, throw a custom error
       if (!result) {
-        throw new CustomError(404, 'Data not found');
+        throw new Error(404, 'Data not found');
       }
   
       // Send the response with the data

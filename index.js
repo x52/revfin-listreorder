@@ -7,8 +7,9 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const errorHandler = require('./middlewares/errorHandler');
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
-app.use(express.json());
-
+//app.use(express.json());
+//outer-2
+app.use(bodyParser.json()); app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 // Enable CORS for all routes

@@ -20,9 +20,7 @@ const itemRoute = require('./routes/itemRoute');
 app.use('/items' , itemRoute);
 app.use('/user', userRoute);
 
-app.use('/', (req,res)=> {
-  res.json({message:'Welcome'})
-})
+app.get("/", (req, res) => res.send("Express on Vercel"));
 
 
 // Start the server

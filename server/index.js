@@ -20,7 +20,9 @@ const itemRoute = require('./routes/itemRoute');
 app.use('/items' , itemRoute);
 app.use('/user', userRoute);
 
-
+app.use('/', (req,res)=> {
+  res.json({message:'Welcome'})
+})
 
 
 // Start the server

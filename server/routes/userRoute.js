@@ -21,9 +21,6 @@ registerUser);
 
 router.post('/login', loginUser);
 
-router.get('/test', (req,res)=> {
-    res.json({message:'workin'});
-})
 
 module.exports = router;
 
